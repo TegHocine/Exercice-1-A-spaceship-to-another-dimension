@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { BOARD_SIZE } from '../../data/boardConstant'
+import { BOARD_SIZE } from '../../constants/boardConstant'
 
 const initialState = {
   x: 0,

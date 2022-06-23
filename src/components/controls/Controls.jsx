@@ -1,5 +1,9 @@
 import React from 'react'
+
+import Button from '../buttons/Button'
 import CurrentPostion from '../currentposition/CurrentPostion'
+import Title from '../title/Title'
+
 import { useDispatch } from 'react-redux'
 
 import {
@@ -17,20 +21,19 @@ const Controls = () => {
     <div className='controls__container'>
       <CurrentPostion />
       <div className='controls'>
-        <h3>Controls</h3>
-        <button className='keys' onClick={() => dispatch(moveFront())}>
-          F
-        </button>
+        <Title title={'Controls'} />
+
+        <Button buttonValue={'F'} control={() => dispatch(moveFront())} />
         <div className='buttom__keys'>
-          <button className='keys' onClick={() => dispatch(orientationLeft())}>
-            L
-          </button>
-          <button className='keys' onClick={() => dispatch(moveBack())}>
-            B
-          </button>
-          <button className='keys' onClick={() => dispatch(orientationRight())}>
-            R
-          </button>
+          <Button
+            buttonValue={'L'}
+            control={() => dispatch(orientationLeft())}
+          />
+          <Button buttonValue={'B'} control={() => dispatch(moveBack())} />
+          <Button
+            buttonValue={'R'}
+            control={() => dispatch(orientationRight())}
+          />
         </div>
       </div>
     </div>

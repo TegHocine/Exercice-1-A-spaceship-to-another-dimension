@@ -1,7 +1,7 @@
 import './board.css'
 
 import { useSelector } from 'react-redux'
-import { BOARD_SIZE } from '../../data/boardConstant'
+import { BOARD_SIZE } from '../../constants/boardConstant'
 
 const Board = () => {
   // Creating the 10x10 matrix for the grid

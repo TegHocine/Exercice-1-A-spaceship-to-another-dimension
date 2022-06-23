@@ -1,4 +1,4 @@
-import Board from './components/board/Board'
+import Board from './pages/board/Board'
 import Controls from './components/controls/Controls'
 import './App.css'
 

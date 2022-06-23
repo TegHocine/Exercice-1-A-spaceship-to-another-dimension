@@ -1,0 +1,16 @@
+.keys {
+  font-size: 1.3rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-weight: 600;
+  background-color: #ece5c7;
+  outline: none;
+  border: 1px solid #cdc2ae;
+  color: rgb(53, 66, 89);
+}
+
+.keys:hover {
+  background-color: #cdc2ae;
+}
