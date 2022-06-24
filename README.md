@@ -1,3 +1,7 @@
+# Link
+https://exercice-1-a-spaceship-to-another-dimension.netlify.app/
+### I have deployed the project on netlify in case you need to check the functionality
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
